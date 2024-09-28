@@ -1,8 +1,8 @@
 function replaceData() {
     const inputData = document.getElementById('dataInput').value.trim().split('\n');
 
-    if (inputData.length < 9) {
-        alert('Vui lòng nhập ít nhất 9 hàng dữ liệu.');
+    if (inputData.length < 8) {
+        alert('Vui lòng nhập ít nhất 8 hàng dữ liệu. Từ mã P đến số tiền');
         return;
     }
 

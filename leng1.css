@@ -49,6 +49,7 @@ button {
   text-align: center;
   padding: 15px;
   font-size: 63%;
+  height: 120px; /* Thay đổi chiều cao thành 120px */
 }
 
 .transaction-table th {
@@ -77,4 +78,3 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
-
